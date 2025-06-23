@@ -16,24 +16,38 @@
 
 ## Установка
 
-```bash
-pip install api-tool
-```
 
-## Быстрый старт
+### Установка из локального каталога
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/yourusername/api-tool.git
+   cd api-tool
 
-```python
-from api_tool import RestApiTool
+2. Установите зависимости:
+    ```bash
+    pip install -r requirements.txt
 
-# Инициализация клиента
-api = RestApiTool("https://api.example.com", token="ваш_токен")
+3. Установите пакет:
+    ```bash
+    pip install .
 
-# GET запрос
-response = api.get("/users")
+### Установка из GitHub
+1. Вы можете установить пакет напрямую из GitHub:
+    ```bash
+    pip install git+https://github.com/yourusername/api-tool.git
 
-# POST запрос
-new_user = api.post("/users", data={"name": "Иван"})
-```
+### Установка из ZIP-архива
+1. Скачайте ZIP-архив с GitHub.
+2. Распакуйте архив и перейдите в каталог проекта:
+    ```bash
+    unzip api-tool-main.zip
+    cd api-tool-main
+3. Установите зависимости:
+    ```bash
+    pip install -r requirements.txt
+4. Установите зависимости:
+    ```bash
+    pip install .
 
 ## Документация
 
