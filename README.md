@@ -2,6 +2,7 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![api_tool](https://github.com/user-attachments/assets/01787247-a11c-4a97-b347-ac6def6b4b3f)
 
 Библиотека на Python для работы с REST API. Поддерживает аутентификацию, операции с файлами и предоставляет детализированное логирование.
 
