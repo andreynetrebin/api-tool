@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "api-tool"
+version = "1.0.0"
+authors = [
+    {name = "Andrey Netrebin", email = "netrebin.a89@gmail.com"},
+]
+description = "Python library for working with REST APIs"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/andreynetrebin/api-tool"
+"Bug Tracker" = "https://github.com/andreynetrebin/api-tool/issues"

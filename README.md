@@ -20,7 +20,7 @@
 ### Установка из локального каталога
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/api-tool.git
+   git clone https://github.com/andreynetrebin/api-tool.git
    cd api-tool
 
 2. Установите зависимости:
@@ -34,7 +34,7 @@
 ### Установка из GitHub
 1. Вы можете установить пакет напрямую из GitHub:
     ```bash
-    pip install git+https://github.com/yourusername/api-tool.git
+    pip install git+https://github.com/andreynetrebin/api-tool.git
 
 ### Установка из ZIP-архива
 1. Скачайте ZIP-архив с GitHub.
